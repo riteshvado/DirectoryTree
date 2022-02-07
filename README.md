@@ -18,9 +18,19 @@ Module DirTree : This would be the main module that will be used.
 
        buildDirTree :  Create tree structure of dir and files. 
                        Tree can also be filtered by passing a function which can operate on os.DirEntry (https://docs.python.org/3/library/os.html#os.DirEntry) as its input.
-                       Examples : buildDirTree(filePath="example_dir",filterFunc=lambda f : f.name.endswith('.yaml'))  
+                       Examples : buildDirTree(filePath="example_dir",filterFunc=lambda f : f.name.endswith('.yaml'))
+
+                      
                
-       printDirTree : This is for pretty printing of tree.    
+       printDirTree : This is for pretty printing of tree.
+
+ 
+![Example of tree filtered by extension as yaml](/images/image_with_file_filter_as_yaml_extension.JPG)
+
+
+![Example of entire Tree no filter](/images/image_with_file_filter_as_yaml_extension.JPG)
+
+
 
 Class Node : Defines Node structure.
 
