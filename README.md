@@ -24,11 +24,14 @@ Module DirTree : This would be the main module that will be used.
                
        printDirTree : This is for pretty printing of tree.
 
- 
+
+Example of tree filtered by extension as yaml:
+
 ![Example of tree filtered by extension as yaml](/images/image_with_file_filter_as_yaml_extension.JPG)
 
+Example of entire Tree no filter:
 
-![Example of entire Tree no filter](/images/image_with_file_filter_as_yaml_extension.JPG)
+![Example of entire Tree no filter](/images/image_without_file_filter.JPG)
 
 
 
